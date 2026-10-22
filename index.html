@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wedding Invitation of Ilusi &amp; Razi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="cover" class="d-flex flex-column align-items-center justify-content-center text-center">
+    <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut ka-atas">
+    <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut kn-bawah">
+    <p class="mb-2">Wedding Invitation</p>
+    <h1 class="nama-cover">Ilusi <span>&amp;</span> Razi</h1>
+    <p id="sapaan" class="mt-3 mb-0"></p>
+    <p class="mt-2 mb-1">Dear,</p>
+    <h2 id="namaTamu" class="h4">Beloved Guest</h2>
+    <button id="btnBuka" class="btn btn-tombol mt-4" autofocus>Open Invitation</button>
+  </section>
+
+  <nav class="navbar navbar-expand-lg fixed-top bg-pine navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#beranda">I &amp; R</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#mempelai">Couple</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cerita">Story</a></li>
+          <li class="nav-item"><a class="nav-link" href="#acara">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#detail">Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hadiah">Gift</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rsvp">RSVP</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header id="beranda" class="hero text-center text-white d-flex flex-column justify-content-center align-items-center">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut ka-bawah">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut kn-bawah">
+      <img src="img/hias-buket.webp" alt="" aria-hidden="true" class="hias buket h-buket-ka">
+      <img src="img/hias-buket.webp" alt="" aria-hidden="true" class="hias buket h-buket-kn">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut ka-atas">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut kn-atas">
+      <img src="img/hias-kering.webp" alt="" aria-hidden="true" class="hias kering h-kering-ka">
+      <img src="img/hias-kering.webp" alt="" aria-hidden="true" class="hias kering h-kering-kn">
+
+      <p>The Wedding of</p>
+      <h1 class="nama-hero">Ilusi <span>&amp;</span> Razi</h1>
+      <p class="mb-4">Sunday, 20 December 2026</p>
+      <div id="countdown" class="d-flex gap-3 justify-content-center">
+        <div class="hitung"><b id="hari">0</b><small>Days</small></div>
+        <div class="hitung"><b id="jam">0</b><small>Hours</small></div>
+        <div class="hitung"><b id="menit">0</b><small>Minutes</small></div>
+        <div class="hitung"><b id="detik">0</b><small>Seconds</small></div>
+      </div>
+    </header>
+
+    <section id="mempelai" class="py-5 dekor">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut ka-atas">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut kn-bawah">
+      <div class="container text-center">
+        <h2 class="judul">The Bride &amp; Groom</h2>
+        <blockquote class="kutipan">
+          <p>Among His signs is that He created partners for you, so that you may find <q>peace in one another</q>, and He placed love and mercy between you.</p>
+          <cite>Qur'an, Ar-Rum 30:21</cite>
+        </blockquote>
+        <p class="mx-auto isi-sempit">With the blessings of Allah SWT, we joyfully invite you to celebrate the wedding of</p>
+        <div class="row g-4 mt-2">
+          <div class="col-md-6">
+            <img src="img/ilusi.jpg" alt="Photo of Ilusi Naraya" class="foto-bulat">
+            <h3>Ilusi Naraya</h3>
+            <p>The daughter of Mr. Abraham, S.Pd., M.Pd. &amp; Ms. Zeline, S.Pd<br>Surabaya</p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/razi.jpg" alt="Photo of Razi Orion Vega" class="foto-bulat">
+            <h3>Razi Orion Vega</h3>
+            <p>The son of Mr. Tristan, S.Sos. &amp; Ms. Agustina, B.Eng., M.Sc. in Computer Science<br>Malang</p>
+          </div>
+        </div>
+        <figure class="mt-4">
+          <img src="img/galeri-3.jpg" alt="Ilusi and Razi" width="320" height="380">
+          <figcaption>Our pre-wedding session, Surabaya</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="cerita" class="py-5 bg-mist">
+      <div class="container">
+        <h2 class="judul text-center">Our Story</h2>
+        <div class="timeline">
+          <div class="t-item row">
+            <div class="col-md-6 t-isi">
+              <span class="t-tanggal">March 2021</span>
+              <h3>First Met</h3>
+              <p>We met at a university event and quickly became close friends.</p>
+            </div>
+          </div>
+          <div class="t-item row">
+            <div class="col-md-6 offset-md-6 t-isi">
+              <span class="t-tanggal">August 2024</span>
+              <h3>The Engagement</h3>
+              <p>Surrounded by our families, we promised to walk this road together.</p>
+            </div>
+          </div>
+          <div class="t-item row">
+            <div class="col-md-6 t-isi">
+              <span class="t-tanggal">December 2026</span>
+              <h3>The Wedding</h3>
+              <p>The day we begin our new chapter, and we would love for you to be there.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="acara" class="py-5 dekor">
+      <img src="img/hias-buket.webp" alt="" aria-hidden="true" class="hias buket kn-atas">
+      <img src="img/hias-buket.webp" alt="" aria-hidden="true" class="hias buket ka-bawah">
+      <div class="container">
+        <h2 class="judul text-center">Schedule</h2>
+        <div class="grid-acara">
+          <article class="kartu-acara">
+            <h3>Marriage Ceremony</h3>
+            <p>Sunday, 20 December 2026<br>8:00 a.m. <abbr title="Western Indonesia Time">WIB</abbr></p>
+          </article>
+          <article class="kartu-acara">
+            <h3>Reception</h3>
+            <p>Sunday, 20 December 2026<br>11:00 a.m. – 2:00 p.m. <abbr title="Western Indonesia Time">WIB</abbr></p>
+          </article>
+        </div>
+        <div class="tabel-wrap mt-4">
+          <table class="table mb-0 tabel-rundown">
+            <caption>Rundown of the Day</caption>
+            <colgroup><col style="width:22%"><col><col style="width:30%"></colgroup>
+            <thead>
+              <tr><th>Time (<abbr title="Western Indonesia Time">WIB</abbr>)</th><th>Event</th><th>Venue</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>07.30</td><td>Guests arrive &amp; register</td><td rowspan="3">Graha Bunga, Main Hall</td></tr>
+              <tr><td>08.00</td><td>Marriage Ceremony</td></tr>
+              <tr><td>09.30</td><td>Family photo session</td></tr>
+              <tr><td>11.00 – 14.00</td><td>Reception &amp; lunch</td><td>Graha Bunga, Garden</td></tr>
+            </tbody>
+            <tfoot>
+              <tr><td colspan="3">Please arrive 15 minutes before the ceremony.</td></tr>
+            </tfoot>
+          </table>
+        </div>
+        <p class="text-center mt-4">Graha Bunga Building, 10 Jl. Raya Darmo, Surabaya</p>
+        <div class="text-center">
+          <a class="btn btn-tombol me-2 mb-2" target="_blank" rel="noopener" href="https://maps.google.com/?q=Jl.+Raya+Darmo+Surabaya">View Location</a>
+          <a class="btn btn-tombol mb-2" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Wedding+of+Ilusi+%26+Razi&amp;dates=20261220T010000Z/20261220T070000Z&amp;details=Marriage+ceremony+08.00+WIB%2C+reception+11.00+WIB&amp;location=Graha+Bunga%2C+Jl.+Raya+Darmo%2C+Surabaya">Add to Calendar</a>
+        </div>
+        <iframe class="peta" title="Wedding venue map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Jl.+Raya+Darmo+Surabaya&amp;output=embed"></iframe>
+      </div>
+    </section>
+
+    <section id="detail" class="py-5 bg-mist">
+      <div class="container">
+        <h2 class="judul text-center">Event Details</h2>
+        <div class="fakta">
+          <div class="kotak"><b>Date</b><br><mark>Sunday, 20 December 2026</mark></div>
+          <div class="kotak utama"><b>Venue</b><br>Graha Bunga Building, Surabaya</div>
+          <div class="kotak"><b>Dress Code</b><br>Cream &amp; sage green</div>
+        </div>
+        <div class="row g-4 mt-2">
+          <div class="col-md-6">
+            <h3 class="h5">How to Get There</h3>
+            <ol type="i" start="1">
+              <li>Head to Jl. Raya Darmo, Surabaya.</li>
+              <li>Look for the Graha Bunga building.
+                <ul type="circle">
+                  <li>Cars: back parking area</li>
+                  <li>Motorbikes: next to the main gate</li>
+                </ul>
+              </li>
+              <li>Register at the welcome desk.</li>
+            </ol>
+            <h3 class="h5 mt-4">Good to Know</h3>
+            <dl>
+              <dt>Contact</dt><dd>+62 812-0000-0000 (Ilusi)</dd>
+              <dt>Seating</dt><dd>Free seating</dd>
+              <dt>Map</dt><dd><a class="link-teks" target="_blank" href="https://maps.google.com/?q=Jl.+Raya+Darmo+Surabaya">Open in Google Maps</a></dd>
+            </dl>
+          </div>
+          <div class="col-md-6">
+            <h3 class="h5">Dress Code Palette</h3>
+            <div class="palet">
+              <div class="lebar" style="background: wheat;">Cream</div>
+              <div class="tinggi" style="background: #7fa394; color: #fff;">Sage</div>
+              <div class="kecil" style="background: hsl(350, 40%, 75%);">Blush</div>
+              <div class="kecil" style="background: #1f3a33; color: white;">Pine</div>
+            </div>
+            <table border="1" cellspacing="0" cellpadding="8" rules="rows" class="tabel-warna mt-3">
+              <tr><th>Color</th><th>Suitable for</th></tr>
+              <tr><td>Cream</td><td>Kebaya, shirts</td></tr>
+              <tr><td>Sage</td><td>Dresses, scarves</td></tr>
+              <tr><td>Blush</td><td>Accessories</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <h3 class="h5">Venue Preview</h3>
+          <object data="img/galeri-2.jpg" type="image/jpeg" width="270" height="480">
+            <p>Preview unavailable. <a class="link-teks" href="img/galeri-2.jpg">Open the image</a></p>
+          </object>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="py-5 dekor">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut kn-atas">
+      <img src="img/hias-sudut.webp" alt="" aria-hidden="true" class="hias sudut ka-bawah">
+      <div class="container">
+        <h2 class="judul text-center">Gallery</h2>
+        <div id="galeriGrid" class="grid-galeri"></div>
+      </div>
+    </section>
+
+    <section id="hadiah" class="py-5 bg-mist">
+      <div class="container text-center">
+        <h2 class="judul">Wedding Gift</h2>
+        <p class="mx-auto isi-sempit">Your presence is the greatest gift. Should you wish to send a token of love, you may do so here.</p>
+        <details class="mx-auto isi-sempit">
+          <summary>Prefer to send a physical gift?</summary>
+          <p class="mb-0 mt-2">Please send it to <i>Jl. Raya Darmo No. 10, Surabaya</i>.</p>
+        </details>
+        <div class="row g-4 justify-content-center mt-1">
+          <div class="col-md-5">
+            <div class="card kartu-hadiah h-100">
+              <div class="card-body">
+                <h3 class="h5">Bank BCA</h3>
+                <p class="nomor mb-1">1234567890</p>
+                <p>a.n. Ilusi Naraya</p>
+                <button type="button" class="btn btn-tombol btn-salin" data-nomor="1234567890">Copy Number</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card kartu-hadiah h-100">
+              <div class="card-body">
+                <h3 class="h5">Bank Mandiri</h3>
+                <p class="nomor mb-1">0987654321</p>
+                <p>a.n. Razi Orion Vega</p>
+                <button type="button" class="btn btn-tombol btn-salin" data-nomor="0987654321">Copy Number</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="py-5 dekor">
+      <img src="img/hias-kering.webp" alt="" aria-hidden="true" class="hias kering ka-atas">
+      <img src="img/hias-buket.webp" alt="" aria-hidden="true" class="hias buket kn-bawah">
+      <div class="container">
+        <h2 class="judul text-center">RSVP &amp; Wishes</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-5">
+            <form id="formRsvp" action="#" method="post" onsubmit="return validasiForm()">
+              <label for="nama" class="form-label">Name</label>
+              <input type="text" id="nama" class="form-control mb-3" placeholder="Your full name" maxlength="40" required>
+              <label for="hadir" class="form-label">Attendance</label>
+              <select id="hadir" class="form-select mb-3" required>
+                <option value="">Select attendance</option>
+                <option value="Attending">Attending</option>
+                <option value="Not attending">Not attending</option>
+              </select>
+
+              <fieldset id="detailTamu" disabled>
+                <legend>Guest Details</legend>
+                <label for="jumlah" class="form-label">Number of guests (1–5)</label>
+                <input type="number" id="jumlah" class="form-control mb-3" min="1" max="5" value="1" required>
+                <p class="form-label mb-1">Menu</p>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="menu" id="menu1" value="Regular menu" checked>
+                  <label class="form-check-label" for="menu1">Regular</label>
+                </div>
+                <div class="form-check form-check-inline mb-2">
+                  <input class="form-check-input" type="radio" name="menu" id="menu2" value="Vegetarian menu">
+                  <label class="form-check-label" for="menu2">Vegetarian</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="extra" id="ex1" value="needs parking">
+                  <label class="form-check-label" for="ex1">I need parking</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="extra" id="ex2" value="needs accessible seat">
+                  <label class="form-check-label" for="ex2">I need an accessible seat</label>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Contact &amp; Extras</legend>
+                <input type="hidden" name="kode" value="IR2026">
+                <label for="acaraRsvp" class="form-label">Event</label>
+                <input type="text" id="acaraRsvp" class="form-control mb-2" value="Wedding of Ilusi &amp; Razi" readonly>
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control mb-2" placeholder="you@example.com">
+                <label for="kodeTamu" class="form-label">Invitation code</label>
+                <input type="password" id="kodeTamu" class="form-control mb-2" placeholder="Code on your invitation">
+                <div class="row g-2 mb-2">
+                  <div class="col-6"><label for="tglDatang" class="form-label">Arrival date</label><input type="date" id="tglDatang" class="form-control"></div>
+                  <div class="col-6"><label for="jamDatang" class="form-label">Arrival time</label><input type="time" id="jamDatang" class="form-control"></div>
+                </div>
+                <label for="warna" class="form-label">Your outfit colour</label>
+                <input type="color" id="warna" class="form-control form-control-color mb-2" value="#4f7a6b">
+                <label for="lagu" class="form-label">Song request</label>
+                <input type="search" id="lagu" class="form-control mb-2" placeholder="Search a song">
+                <label for="sosmed" class="form-label">Social media</label>
+                <input type="url" id="sosmed" class="form-control mb-2" placeholder="https://instagram.com/yourname">
+                <label for="foto" class="form-label">Upload photos</label>
+                <input type="file" id="foto" class="form-control" accept="image/*" multiple>
+              </fieldset>
+
+              <label for="pesan" class="form-label">Wishes</label>
+              <textarea id="pesan" rows="3" class="form-control mb-3" placeholder="Write your wishes for the couple" maxlength="200" required></textarea>
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-tombol flex-grow-1">Send Wishes</button>
+                <button type="reset" class="btn btn-tombol">Reset</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <p class="text-center">Wishes: <b id="totalUcapan">0</b> · Attending: <b id="totalHadir">0</b></p>
+            <div id="daftarUcapan" class="daftar-ucapan"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="faq" class="py-5 bg-mist">
+      <div class="container">
+        <h2 class="judul text-center">Guest Info</h2>
+        <div class="accordion" id="accFaq">
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">What is the dress code?</button></h3>
+            <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#accFaq"><div class="accordion-body"><mark>Cream, sage green</mark>, or soft earth tones. Please avoid all-white outfits.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">Is there parking available?</button></h3>
+            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#accFaq"><div class="accordion-body">Yes, the venue has a car park at the back of the building. Motorbike parking is next to the main gate.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">Can I bring my children?</button></h3>
+            <div id="f3" class="accordion-collapse collapse" data-bs-parent="#accFaq"><div class="accordion-body">Children are very welcome. Please include them in the number of guests when you RSVP.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Until when can I <abbr title="Please respond">RSVP</abbr>?</button></h3>
+            <div id="f4" class="accordion-collapse collapse" data-bs-parent="#accFaq"><div class="accordion-body">Please confirm your attendance by <del>1 December</del> <u>10 December 2026</u> (extended).</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center text-white bg-pine py-4">
+    <p class="mb-1"><i>Thank you</i> for your prayers and for being part of our special day.</p>
+    <p class="mb-2">Questions? <a class="link-teks" href="#faq">Read the guest info</a></p>
+    <button type="button" class="btn btn-tombol btn-sm mb-2" onclick="console.log('Printing...'); window.print()">Print Invitation</button><br>
+    <small>&#169; 2026 Ilusi&nbsp;&amp;&nbsp;Razi</small>
+  </footer>
+
+  <button id="btnAtas" class="btn-atas" aria-label="Back to top">↑</button>
+
+  <button id="btnMusik" class="btn-musik" aria-label="Play or pause music">♪</button>
+  <audio id="musik" loop preload="auto">
+    <source src="lagu.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="modal fade" id="modalSukses" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+        <h3>Thank you</h3>
+        <p id="isiModal" class="mb-3"></p>
+        <button class="btn btn-tombol" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>console.log("Wedding invitation loaded");</script>
+  <script src="script.js"></script>
+</body>
+</html>
